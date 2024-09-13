@@ -1,0 +1,143 @@
+body {
+    font-size: 15px;
+    color: #FFFFFF;
+    background-image: url(/assets/background.png);
+    font-family: 'Outfit', 'sans-serif';
+    font-weight: 700;
+    cursor: url('/assets/sxdaup.cur'), auto;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.header {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(19, 19, 19);
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 15px rgba(19, 19, 19, 0.5);
+}
+
+.home-text {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: transform 0.3s ease;
+}
+
+.projects {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: transform 0.3s ease;
+}
+
+.discord {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding-left: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: transform 0.3s ease;
+}
+
+.home-text:hover {
+    color: rgb(130, 90, 224);
+    transform: scale(1.035);
+}
+
+.projects:hover {
+    color: rgb(130, 90, 224);
+    transform: scale(1.035);
+}
+
+.discord:hover {
+    color: rgb(130, 90, 224);
+    transform: scale(1.035);
+}
+
+.projects-dev {
+    background-color: transparent;
+    text-align: center;
+    width: 100vw;
+    padding-top: 50px;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    margin-bottom: calc(50% - 50vw);
+}
+
+.projects-vlorp {
+    z-index: 50;
+    width: 25%;
+    margin-bottom: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 0px 25px rgba(130, 90, 224, 0.5);
+}
+
+.projects-vlorp:hover {
+    transform: scale(1.05);
+}
+
+.vlorp-img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.vlorp-button {
+    display: block;
+    padding: 10px;
+    background-color: rgb(130, 90, 224);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h3 {
+    margin: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p {
+    margin: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}

@@ -1,0 +1,65 @@
+html, body {
+    font-size: 15px;
+    color: transparent;
+    font-family: 'Outfit', 'sans-serif';
+    font-weight: 700;
+    cursor: url('/assets/sxdaup.cur'), auto;
+    background-image: url('/assets/background.png');
+    height: 100%;
+    overflow: hidden;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(19, 19, 19);
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 15px rgba(19, 19, 19, 0.5);
+}
+
+.home-text {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding-right: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: transform 0.3s ease;
+}
+
+.projects {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: transform 0.3s ease;
+}
+
+.discord {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding-left: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: transform 0.3s ease;
+}
+
+.home-text:hover {
+    color: rgb(130, 90, 224);
+    transform: scale(1.035);
+}
+
+.projects:hover {
+    color: rgb(130, 90, 224);
+    transform: scale(1.035);
+}
+
+.discord:hover {
+    color: rgb(130, 90, 224);
+    transform: scale(1.035);
+}
